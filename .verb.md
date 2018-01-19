@@ -14,14 +14,15 @@
 
 ## FAQ
 
-**Question:** I am getting an error uploading the extension to Qlik Sense Server, what can I do?  
-**Answer:**   
+### I am getting an error uploading the extension to Qlik Sense Server, what can I do?  
+
 As you upload a .zip file to Qlik Sense Server I first recommend to unzip the file locally to have a look into the content of the .zip file:
 
 - You should see a .qext file at the root of the .zip file's content
 
-**Question:** Why can't I just download the GitHub project?  
-**Answer:** I have structured all my extensions in the same way, so that you have a `./build` directory from where you can download multiple versions of an extension.
+### Why can't I just download the GitHub project?  
+
+I have structured all my extensions in the same way, so that you have a `./build` directory from where you can download multiple versions of an extension.
 If you download the entire GitHub repository, it will contain most likely multiple .zip files containing a specific version of an extension.  
 The solution is simple: Go to the `./build` directory and download the desired version, by default the go for the file %extension-name%_latest.zip
 
