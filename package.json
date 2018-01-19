@@ -1,0 +1,32 @@
+{
+  "name": "sense-extension-install",
+  "version": "1.0.0",
+  "description": "Some instructions & FAQs to install extensions for Qlik Sense.",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "husky": "^0.14.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "precommit": "make gen-readme"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stefanwalther/sense-extension-install"
+  },
+  "keywords": [
+    "qlik",
+    "qliksense",
+    "qlik-sense",
+    "extensions",
+    "visualization-extensions"
+  ],
+  "author": "Stefan Walther <swr.nixda@gmail.com> (http://qliksite.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stefanwalther/sense-extension-install/issues"
+  },
+  "homepage": "https://github.com/stefanwalther/sense-extension-install#readme"
+}
