@@ -28,5 +28,26 @@
   "bugs": {
     "url": "https://github.com/stefanwalther/sense-extension-install/issues"
   },
-  "homepage": "https://github.com/stefanwalther/sense-extension-install#readme"
+  "homepage": "https://github.com/stefanwalther/sense-extension-install#readme",
+  "verb": {
+    "run": true,
+    "toc": true,
+    "layout": "empty",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": []
+    },
+    "lint": {
+      "reflinks": true
+    },
+    "reflinks": [
+      "verb",
+      "verb-readme-generator"
+    ]
+  }
 }
