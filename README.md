@@ -78,7 +78,7 @@ I have structured all my extensions in the same way:
 - There is a `./build` directory where you can download multiple versions of an extension.
 
 If you download the entire GitHub repository, it will contain most likely multiple .zip files containing a specific version of an extension.  
-The solution is simple: Go to the `./build` directory and download the desired version, by default the go for the file %extension-name%_latest.zip
+The solution is simple: Go to the `./build` directory and download the desired version, by default the go for the file `%extension-name%_latest.zip
 
 ## About
 
